@@ -7,7 +7,7 @@ Objective: To design and create algorithm for finding the optimal routes for 10 
 
 Approach:
 
-1. Read the Location.txt file that contains ID, Latitude and Longitude of all 100 delivery locations and create their seperate list.
+1. Read the 'Location.txt' file that contains ID, Latitude and Longitude of all 100 delivery locations and create their seperate list.
 
 2. Convert the lists into a Pandas dataframe with column names 'ID', 'Latitude', and 'Longitude'.
 
@@ -15,7 +15,7 @@ Approach:
 
 4. Now the next stem is to find the order of delivery which means how an agent will decide which location he had to go first to minimize his distance travel.
 
-5. Create a function to calculate distance from store location to delivery address location using Manhattan distance formula.
+5. Create a function to calculate distance from store location to delivery address location using Manhattan distance formula and store it into 'Distance' column in the dataframe.
 
 6. Use a loop arrange the order of delivery such that the address which is closest to the store will be delivered first then the second most closest location then the third one and so on.
 
