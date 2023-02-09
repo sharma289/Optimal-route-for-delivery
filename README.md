@@ -9,7 +9,7 @@ Approach:
 
 1. Read the 'Location.txt' file that contains ID, Latitude and Longitude of all 100 delivery locations and create their separate list.
 
-2. Convert the lists into a Pandas dataframe with column names 'ID', 'Latitude', and 'Longitude'. Use KMean clustering technique with 'n_clusters = Number of agents' to create 10 clusters.
+2. Convert the lists into a Pandas dataframe with column names 'ID', 'Latitude', and 'Longitude'. Use 'KMean' clustering technique of scikit-learn with 'n_clusters = Number of agents' to create 10 clusters.
 
 3. Each agent will deliver the parcel to a single cluster. Now the next step is to find the order of delivery which means how an agent will decide which location he had to go first to minimize his distance travel.
 
