@@ -1,7 +1,4 @@
 # Find optimal route for delivery
-Submitted by - Rajat Sharma
-
-Roll no.: 21ME61R08
 
 Objective: To design and create algorithm for finding the optimal routes for 10 delivery agents to deliver parcels from a store to 100 different locations.
 
