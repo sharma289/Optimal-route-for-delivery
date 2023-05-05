@@ -1,6 +1,7 @@
 # Find optimal route for delivery
 
-Objective: To design and create algorithm for finding the optimal routes for 10 delivery agents to deliver parcels from a store to 100 different locations.
+Objective: • To designed and created an algorithm to find the optimal routes for 10 delivery agents to deliver parcels from a store to 100 different locations using the K-Mean cluster algorithm.
+• Design a Python algorithm to assign delivery addresses according to optimal delivery distances.
 
 Approach:
 
